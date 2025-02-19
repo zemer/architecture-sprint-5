@@ -20,3 +20,18 @@ rules:
     steps:
       - intent: request_info
       - action: utter_ask_more
+
+  - rule: Request microservices questions
+    steps:
+      - intent: ask_microservices
+      - action: utter_microservices_response
+
+  - rule: Request approaches questions
+    steps:
+      - intent: ask_approaches
+      - action: utter_approaches_response
+
+  - rule: Request approaches questions
+    steps:
+      - intent: ask_choose_approach
+      - action: utter_choose_approaches_response

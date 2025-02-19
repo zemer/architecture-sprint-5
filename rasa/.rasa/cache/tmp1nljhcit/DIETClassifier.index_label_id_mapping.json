@@ -1,0 +1,10 @@
+{
+  "0": "affirm",
+  "1": "ask_approaches",
+  "2": "ask_architecture",
+  "3": "ask_microservices",
+  "4": "deny",
+  "5": "goodbye",
+  "6": "greet",
+  "7": "request_info"
+}

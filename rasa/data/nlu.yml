@@ -16,8 +16,17 @@ nlu:
   - intent: ask_architecture
     examples: |
       - Расскажите об архитектуре ПО
-      - Какие подходы существуют в архитектуре?
+
+  - intent: ask_microservices
+    examples: |
       - Что такое микросервисная архитектура?
+
+  - intent: ask_approaches
+    examples: |
+      - Какие подходы существуют в архитектуре?
+
+  - intent: ask_choose_approach
+    examples: |
       - Как выбрать архитектуру ПО?
 
   - intent: affirm
